@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MOSFET_Switch.kicad_pro",
+    "filename": "BJTamplifier.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -597,7 +597,15 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "empty.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -611,7 +619,7 @@
   },
   "sheets": [
     [
-      "ea925fc5-0879-468f-a343-fd96c284e363",
+      "5a9f8f1c-34e2-4716-b8ce-86c04f4675b0",
       "Root"
     ]
   ],
