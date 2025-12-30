@@ -79,17 +79,17 @@
 	)
 	(net 0 "")
 	(net 1 "GND")
-	(net 2 "Net-(J1-Pin_1)")
-	(net 3 "Net-(J2-Pin_1)")
+	(net 2 "A")
+	(net 3 "B")
 	(net 4 "Net-(J3-Pin_1)")
-	(net 5 "Net-(J4-Pin_1)")
+	(net 5 "Vcc")
 	(net 6 "Net-(U1B-D)")
 	(net 7 "Net-(U1B-S)")
 	(net 8 "Net-(U1A-S)")
 	(net 9 "Net-(U1A-D)")
-	(net 10 "Net-(U1C-D)")
+	(net 10 "A'")
 	(net 11 "Net-(U2A-S)")
-	(net 12 "Net-(U1E-G)")
+	(net 12 "B'")
 	(net 13 "Net-(U1D-S)")
 	(footprint "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
 		(layer "F.Cu")
@@ -353,7 +353,7 @@
 		(property "Reference" "J1"
 			(at 0 -2.11 0)
 			(layer "F.SilkS")
-			(uuid "0168ae7f-3417-484d-b892-2fbe68203662")
+			(uuid "7884ebee-b523-4f8c-b223-ba9dae908a3f")
 			(effects
 				(font
 					(size 1 1)
@@ -364,7 +364,7 @@
 		(property "Value" "Conn_01x02_Pin"
 			(at 0 4.11 0)
 			(layer "F.Fab")
-			(uuid "4b2ad772-6ad3-49d7-8243-9c89110899b0")
+			(uuid "9e40ef25-9027-4466-a6d8-b91983256cde")
 			(effects
 				(font
 					(size 1 1)
@@ -376,7 +376,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "24522500-e9a1-469f-b524-c85bf6085099")
+			(uuid "49474352-5bcf-4145-b0c6-7fed718a2830")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -388,7 +388,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6c17a932-7ec6-4101-b7f6-70be8ec32445")
+			(uuid "017b22ef-2c39-4bcb-83be-6c26c40a7f9b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -568,7 +568,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "Net-(J1-Pin_1)")
+			(net 2 "A")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "afa6f503-00b8-4371-b203-41154791f211")
@@ -606,7 +606,7 @@
 		(property "Reference" "U1"
 			(at 3.81 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "c9a980a3-1675-4c2d-845b-2f19c7af6aa6")
+			(uuid "2fb99042-2a99-402c-b8e8-1560986d5106")
 			(effects
 				(font
 					(size 1 1)
@@ -617,7 +617,7 @@
 		(property "Value" "~"
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
-			(uuid "0ecbd35b-c38b-4010-8313-9aaa251eca86")
+			(uuid "031b590f-c501-451c-9659-9e075d59d5c4")
 			(effects
 				(font
 					(size 1 1)
@@ -629,7 +629,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64219b5c-72d1-43e8-b522-98ed0c65dbdb")
+			(uuid "f86bdccd-2607-45a5-b36e-eaa5f8ef376d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -641,7 +641,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf5a56ea-f333-419e-9d7c-395072554c9f")
+			(uuid "ff7739f8-5afb-48e1-87e1-820e0768b58b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -649,7 +649,7 @@
 				)
 			)
 		)
-		(path "/a65b9b02-b3d2-4975-8ec0-f4f7b96ce3be")
+		(path "/8a6160d2-aaee-4e21-95ef-e2fddee04107")
 		(sheetname "/")
 		(sheetfile "XORgate.kicad_sch")
 		(attr through_hole)
@@ -815,7 +815,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "Net-(J1-Pin_1)")
+			(net 2 "A")
 			(pinfunction "G")
 			(pintype "input")
 			(uuid "6d396f49-d347-43ab-9e4b-de69c5333787")
@@ -848,7 +848,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "Net-(J1-Pin_1)")
+			(net 2 "A")
 			(pinfunction "G")
 			(pintype "input")
 			(uuid "1d20f091-fd14-4ccc-a229-81d9e92eeb07")
@@ -870,7 +870,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "Net-(U1C-D)")
+			(net 10 "A'")
 			(pinfunction "D")
 			(pintype "passive")
 			(uuid "a61e9f12-37db-4936-8971-9fbd3ef2308b")
@@ -892,7 +892,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "Net-(U1C-D)")
+			(net 10 "A'")
 			(pinfunction "G")
 			(pintype "input")
 			(uuid "dd560a9c-74cc-41d6-8c4f-ed344cf01e4f")
@@ -925,7 +925,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "Net-(U1C-D)")
+			(net 10 "A'")
 			(pinfunction "S")
 			(pintype "passive")
 			(uuid "7d9bab65-a700-4a87-8764-54355da98d77")
@@ -936,7 +936,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "Net-(J4-Pin_1)")
+			(net 5 "Vcc")
 			(pinfunction "D")
 			(pintype "passive")
 			(uuid "346a8070-5c3e-43c5-a4cd-72532ec36147")
@@ -963,7 +963,7 @@
 		(property "Reference" "J4"
 			(at 0 -2.11 0)
 			(layer "F.SilkS")
-			(uuid "d6ea12a6-84f5-47b5-930a-44fe9a048b4e")
+			(uuid "974634e9-3ec3-437d-bd3d-64888c33c908")
 			(effects
 				(font
 					(size 1 1)
@@ -974,7 +974,7 @@
 		(property "Value" "Conn_01x02_Pin"
 			(at 0 4.11 0)
 			(layer "F.Fab")
-			(uuid "106b3003-3e6e-48a1-b736-45178963d431")
+			(uuid "426fa7e7-03a1-4db5-900f-bf1da53ffdbd")
 			(effects
 				(font
 					(size 1 1)
@@ -986,7 +986,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f034ab33-9015-46c5-86e4-98e11d447200")
+			(uuid "429fe6b7-ee95-4724-9a17-5d4dd989f2f7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -998,7 +998,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d461e751-9c99-446c-bfc9-902853d039ab")
+			(uuid "58e95da5-ac6a-4006-87b9-38850ea0a1fe")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +1178,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "Net-(J4-Pin_1)")
+			(net 5 "Vcc")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "13fccbad-8ef8-45e3-8507-4fa2adb9aa48")
@@ -1216,7 +1216,7 @@
 		(property "Reference" "U2"
 			(at 3.81 -2.33 0)
 			(layer "F.SilkS")
-			(uuid "ad3b92da-6c97-479d-92e1-324c7ceb2637")
+			(uuid "f10357e1-6970-4186-a136-f113bf3b2994")
 			(effects
 				(font
 					(size 1 1)
@@ -1227,7 +1227,7 @@
 		(property "Value" "~"
 			(at 3.81 17.57 0)
 			(layer "F.Fab")
-			(uuid "5ad75c14-55b6-458f-9598-64524c44ea77")
+			(uuid "72490a5b-1379-4e1b-8699-698d7b56c351")
 			(effects
 				(font
 					(size 1 1)
@@ -1239,7 +1239,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e340f4f3-3af5-408f-ac3e-91446ddaab52")
+			(uuid "c8537a35-d4af-41ce-b035-03991a4a453e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1251,7 +1251,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a937db88-cd88-4941-8bc5-bc8f5b3d441f")
+			(uuid "4017a53a-1134-4053-aded-0f88a7cdfd8a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,7 +1259,7 @@
 				)
 			)
 		)
-		(path "/eff6c387-148f-4a5f-a548-7f4ddd55dfc4")
+		(path "/e2c8f5ec-0cdb-48c1-a56c-81918587ebb0")
 		(sheetname "/")
 		(sheetfile "XORgate.kicad_sch")
 		(attr through_hole)
@@ -1425,7 +1425,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 10 "Net-(U1C-D)")
+			(net 10 "A'")
 			(pinfunction "G")
 			(pintype "input")
 			(uuid "82ec2e9a-08eb-4dee-8cc1-b7f07d97a629")
@@ -1458,7 +1458,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "Net-(J2-Pin_1)")
+			(net 3 "B")
 			(pinfunction "G")
 			(pintype "input")
 			(uuid "0a53b1e5-868c-4893-ae0c-39231c4400e3")
@@ -1480,7 +1480,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 12 "Net-(U1E-G)")
+			(net 12 "B'")
 			(pinfunction "D")
 			(pintype "passive")
 			(uuid "8c2168f5-7bc4-4fda-8763-ce3e5034bff8")
@@ -1502,7 +1502,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "Net-(J2-Pin_1)")
+			(net 3 "B")
 			(pinfunction "G")
 			(pintype "input")
 			(uuid "fbc42126-9f95-469c-8247-f2690d880821")
@@ -1535,7 +1535,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 12 "Net-(U1E-G)")
+			(net 12 "B'")
 			(pinfunction "S")
 			(pintype "passive")
 			(uuid "566c9b5a-c952-4dc5-93c5-cd1f1ecb9e1a")
@@ -1546,7 +1546,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "Net-(J4-Pin_1)")
+			(net 5 "Vcc")
 			(pinfunction "D")
 			(pintype "passive")
 			(uuid "c9e99e8b-2982-43d3-a4e0-140532f0b4a2")
@@ -1573,7 +1573,7 @@
 		(property "Reference" "J2"
 			(at 0 -2.11 0)
 			(layer "F.SilkS")
-			(uuid "ce0f2206-53bb-4627-9834-0446f1676d06")
+			(uuid "d2ac70a6-5acf-4ab0-a484-e83a369dd9d0")
 			(effects
 				(font
 					(size 1 1)
@@ -1584,7 +1584,7 @@
 		(property "Value" "Conn_01x02_Pin"
 			(at 0 4.11 0)
 			(layer "F.Fab")
-			(uuid "6341bfdf-dfd5-4633-a231-0619bf2d2e95")
+			(uuid "304e3405-e527-427d-a75a-ead843d9c3ae")
 			(effects
 				(font
 					(size 1 1)
@@ -1596,7 +1596,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9864c8e-58ef-4d95-9334-781ac976523f")
+			(uuid "420d6f02-6a4f-45eb-aa33-3bc98f34534e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,7 +1608,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7712abc2-d8a6-4418-a11b-031bd10fb9a0")
+			(uuid "02cff015-fe98-49cb-9be6-35ae9372d9c2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +1788,7 @@
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 3 "Net-(J2-Pin_1)")
+			(net 3 "B")
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(uuid "973fd89d-c666-46d6-a585-368f6cd95c39")
