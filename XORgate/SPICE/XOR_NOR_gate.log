@@ -1,0 +1,15 @@
+LTspice 24.1.10 for Windows
+Circuit: C:\Users\Y9650\Documents\KiCad\9.0\projects\Course_PCB_Design\XORgate\SPICE\XOR_NOR_gate.net
+Start Time: Tue Dec 30 18:06:37 2025
+solver = Normal
+Maximum thread count: 24
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 0.093 seconds.
+
+Files loaded:
+C:\Users\Y9650\Documents\KiCad\9.0\projects\Course_PCB_Design\XORgate\SPICE\XOR_NOR_gate.net
+C:\Users\Y9650\AppData\Local\LTspice\lib\cmp\standard.mos
+

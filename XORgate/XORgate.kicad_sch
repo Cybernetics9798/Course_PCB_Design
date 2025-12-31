@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "b2608f2f-b02a-40ab-b14f-7443dd95ceff")
-	(paper "A5")
+	(paper "USLetter")
 	(title_block
 		(title "XOR Gate Constructed with 12 MOSFETs Using 2 CD4007 ICs")
 		(date "2025-12-30")
@@ -1664,74 +1664,74 @@
 		)
 	)
 	(junction
-		(at 52.07 48.26)
+		(at 100.33 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c4fb6f4-f79f-45bc-9203-3826b099441a")
 	)
 	(junction
-		(at 133.35 59.69)
+		(at 181.61 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "123f330e-1fa7-405d-9a87-472f04763588")
 	)
 	(junction
-		(at 133.35 57.15)
+		(at 181.61 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2188f7c7-ab9d-4135-bb2d-3cb736ff4c09")
 	)
 	(junction
-		(at 133.35 86.36)
+		(at 181.61 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4eb912dc-b993-4325-8a3a-cbc6f086237d")
 	)
 	(junction
-		(at 52.07 87.63)
+		(at 100.33 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79a98439-0323-4c2b-91dc-99473b46b91a")
 	)
 	(junction
-		(at 62.23 48.26)
+		(at 110.49 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "821babb7-309b-4d22-82d3-e29280d9bb56")
 	)
 	(junction
-		(at 69.85 48.26)
+		(at 118.11 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f7dafff-3116-4316-a9a6-57f2c282a2e0")
 	)
 	(junction
-		(at 69.85 87.63)
+		(at 118.11 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0f08e09-ee1a-4d90-9bc3-60d4757afad6")
 	)
 	(junction
-		(at 133.35 29.21)
+		(at 181.61 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3c61626-11cc-46f4-91af-f8b21f50d84d")
 	)
 	(junction
-		(at 62.23 87.63)
+		(at 110.49 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b440c870-0015-4897-8f2f-8673565d2877")
 	)
 	(junction
-		(at 133.35 54.61)
+		(at 181.61 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c70e6bcc-f3f6-49fb-a954-12a864a582fa")
 	)
 	(wire
 		(pts
-			(xy 52.07 41.91) (xy 52.07 48.26)
+			(xy 100.33 85.09) (xy 100.33 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1741,7 +1741,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 46.99) (xy 69.85 48.26)
+			(xy 118.11 90.17) (xy 118.11 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1751,7 +1751,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 86.36) (xy 69.85 87.63)
+			(xy 118.11 129.54) (xy 118.11 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1761,7 +1761,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 86.36) (xy 151.13 86.36)
+			(xy 181.61 129.54) (xy 199.39 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1771,7 +1771,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 57.15) (xy 133.35 59.69)
+			(xy 181.61 100.33) (xy 181.61 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1781,7 +1781,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 87.63) (xy 69.85 87.63)
+			(xy 125.73 130.81) (xy 118.11 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1791,7 +1791,17 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 48.26) (xy 52.07 48.26)
+			(xy 153.67 53.34) (xy 153.67 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451922ed-aec1-4983-9d15-5a91b5edafb7")
+	)
+	(wire
+		(pts
+			(xy 87.63 91.44) (xy 100.33 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1801,7 +1811,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 86.36) (xy 133.35 86.36)
+			(xy 163.83 129.54) (xy 181.61 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1811,7 +1821,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 87.63) (xy 69.85 88.9)
+			(xy 118.11 130.81) (xy 118.11 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1821,7 +1831,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 86.36) (xy 133.35 91.44)
+			(xy 181.61 129.54) (xy 181.61 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1831,7 +1841,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 73.66) (xy 69.85 76.2)
+			(xy 118.11 116.84) (xy 118.11 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1841,7 +1851,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 48.26) (xy 77.47 48.26)
+			(xy 118.11 91.44) (xy 125.73 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1851,7 +1861,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 59.69) (xy 151.13 59.69)
+			(xy 181.61 102.87) (xy 199.39 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1861,7 +1871,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 87.63) (xy 62.23 87.63)
+			(xy 100.33 130.81) (xy 110.49 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1871,7 +1881,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 54.61) (xy 166.37 54.61)
+			(xy 208.28 97.79) (xy 214.63 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1881,7 +1891,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 54.61) (xy 133.35 57.15)
+			(xy 181.61 97.79) (xy 181.61 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1891,7 +1901,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 54.61) (xy 133.35 54.61)
+			(xy 163.83 97.79) (xy 181.61 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1901,7 +1911,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 48.26) (xy 69.85 49.53)
+			(xy 118.11 91.44) (xy 118.11 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1911,7 +1921,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 87.63) (xy 62.23 93.98)
+			(xy 110.49 130.81) (xy 110.49 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1921,7 +1931,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 48.26) (xy 62.23 48.26)
+			(xy 100.33 91.44) (xy 110.49 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1931,7 +1941,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 41.91) (xy 62.23 48.26)
+			(xy 110.49 85.09) (xy 110.49 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1941,7 +1951,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 54.61) (xy 151.13 54.61)
+			(xy 181.61 97.79) (xy 199.39 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1951,7 +1961,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 21.59) (xy 52.07 21.59)
+			(xy 87.63 64.77) (xy 100.33 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1961,7 +1971,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 34.29) (xy 69.85 36.83)
+			(xy 118.11 77.47) (xy 118.11 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1971,7 +1981,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 69.85) (xy 151.13 76.2)
+			(xy 199.39 113.03) (xy 199.39 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1981,7 +1991,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 25.4) (xy 133.35 29.21)
+			(xy 181.61 68.58) (xy 181.61 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1991,7 +2001,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 81.28) (xy 62.23 87.63)
+			(xy 110.49 124.46) (xy 110.49 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2001,7 +2011,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 57.15) (xy 166.37 57.15)
+			(xy 181.61 100.33) (xy 214.63 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2011,7 +2021,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 39.37) (xy 115.57 44.45)
+			(xy 163.83 82.55) (xy 163.83 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2021,7 +2031,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 29.21) (xy 133.35 29.21)
+			(xy 163.83 72.39) (xy 181.61 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2031,7 +2041,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 59.69) (xy 133.35 59.69)
+			(xy 128.27 53.34) (xy 128.27 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9695a1d-9ab0-40a4-82aa-a20e38131a23")
+	)
+	(wire
+		(pts
+			(xy 163.83 102.87) (xy 181.61 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2041,7 +2061,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 29.21) (xy 151.13 29.21)
+			(xy 181.61 72.39) (xy 199.39 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2051,7 +2071,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 48.26) (xy 62.23 54.61)
+			(xy 110.49 91.44) (xy 110.49 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2061,7 +2081,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 69.85) (xy 115.57 76.2)
+			(xy 163.83 113.03) (xy 163.83 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2071,7 +2091,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 87.63) (xy 52.07 87.63)
+			(xy 87.63 130.81) (xy 100.33 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2081,7 +2101,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 39.37) (xy 151.13 44.45)
+			(xy 199.39 82.55) (xy 199.39 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2091,7 +2111,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 81.28) (xy 52.07 87.63)
+			(xy 100.33 124.46) (xy 100.33 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2101,7 +2121,7 @@
 	)
 	(global_label "Vcc"
 		(shape output)
-		(at 52.07 21.59 0)
+		(at 100.33 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2111,7 +2131,7 @@
 		)
 		(uuid "0bc5465e-e1f3-486e-b013-27aafa9e2d56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 58.321 21.59 0)
+			(at 106.581 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +2143,7 @@
 	)
 	(global_label "A"
 		(shape output)
-		(at 52.07 41.91 90)
+		(at 100.33 85.09 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2133,7 +2153,7 @@
 		)
 		(uuid "2165360d-876c-434a-851b-c1dba45ccde3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 37.8362 90)
+			(at 100.33 81.0162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,7 +2165,7 @@
 	)
 	(global_label "B"
 		(shape output)
-		(at 52.07 81.28 90)
+		(at 100.33 124.46 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2155,7 +2175,7 @@
 		)
 		(uuid "392b9f59-e81a-425f-9cf5-f73a153facb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.07 77.0248 90)
+			(at 100.33 120.2048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2167,7 +2187,7 @@
 	)
 	(global_label "B"
 		(shape input)
-		(at 143.51 64.77 180)
+		(at 191.77 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2177,7 +2197,7 @@
 		)
 		(uuid "50a325c9-baff-49ff-b0c3-7864d33abf91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.2548 64.77 0)
+			(at 187.5148 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2189,7 +2209,7 @@
 	)
 	(global_label "A'"
 		(shape input)
-		(at 107.95 64.77 180)
+		(at 156.21 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2199,7 +2219,7 @@
 		)
 		(uuid "655fae6e-9e2e-4271-808e-cc4ebfbe6f22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.2714 64.77 0)
+			(at 151.5314 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2231,7 @@
 	)
 	(global_label "Vcc"
 		(shape input)
-		(at 69.85 73.66 90)
+		(at 118.11 116.84 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2221,7 +2241,7 @@
 		)
 		(uuid "6eaeafbc-d51f-4069-937e-5e29802a3f7c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.85 67.409 90)
+			(at 118.11 110.589 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +2253,7 @@
 	)
 	(global_label "B'"
 		(shape output)
-		(at 77.47 87.63 0)
+		(at 125.73 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2243,7 +2263,7 @@
 		)
 		(uuid "7346eccc-3f35-4b16-8855-0ac37f1a389a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.33 87.63 0)
+			(at 130.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,7 +2275,7 @@
 	)
 	(global_label "A"
 		(shape input)
-		(at 143.51 81.28 180)
+		(at 191.77 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2265,7 +2285,7 @@
 		)
 		(uuid "73d2e4f7-5665-4645-b2a4-c8baeb5a9355")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.4362 81.28 0)
+			(at 187.6962 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2277,7 +2297,7 @@
 	)
 	(global_label "A'"
 		(shape output)
-		(at 77.47 48.26 0)
+		(at 125.73 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2287,7 +2307,7 @@
 		)
 		(uuid "874a0dc2-7e08-48d2-a877-977e7fb23f90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.1486 48.26 0)
+			(at 130.4086 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,7 +2319,7 @@
 	)
 	(global_label "A'"
 		(shape input)
-		(at 143.51 34.29 180)
+		(at 191.77 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2309,7 +2329,29 @@
 		)
 		(uuid "87be9be8-f9cf-4f4d-9f32-f16d9563c8ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.8314 34.29 0)
+			(at 187.0914 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "B'"
+		(shape input)
+		(at 153.67 62.23 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "903595b3-751d-4f32-8405-d3586dd61907")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.67 67.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2321,7 +2363,7 @@
 	)
 	(global_label "A"
 		(shape input)
-		(at 107.95 34.29 180)
+		(at 156.21 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2331,7 +2373,7 @@
 		)
 		(uuid "97046607-0562-4e01-861f-7bd318164707")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.8762 34.29 0)
+			(at 152.1362 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2343,7 +2385,7 @@
 	)
 	(global_label "Vcc"
 		(shape input)
-		(at 133.35 25.4 90)
+		(at 181.61 68.58 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2353,7 +2395,7 @@
 		)
 		(uuid "9f4e2906-b68c-4e3a-b428-3a9e0e468446")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.35 19.149 90)
+			(at 181.61 62.329 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2365,7 +2407,7 @@
 	)
 	(global_label "B'"
 		(shape input)
-		(at 123.19 49.53 0)
+		(at 171.45 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2375,7 +2417,7 @@
 		)
 		(uuid "c5d20fe0-ddf5-41dc-b668-87f98df506b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.05 49.53 0)
+			(at 176.31 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +2429,7 @@
 	)
 	(global_label "B'"
 		(shape input)
-		(at 107.95 81.28 180)
+		(at 156.21 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2397,7 +2439,7 @@
 		)
 		(uuid "e1035aa4-da93-4f20-999e-93d7ff6129b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.09 81.28 0)
+			(at 151.35 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +2451,7 @@
 	)
 	(global_label "Vcc"
 		(shape input)
-		(at 69.85 34.29 90)
+		(at 118.11 77.47 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2419,7 +2461,7 @@
 		)
 		(uuid "e59b5286-f4d5-4838-b37e-ab4bb182bbf2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.85 28.039 90)
+			(at 118.11 71.219 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2431,7 +2473,7 @@
 	)
 	(global_label "B"
 		(shape input)
-		(at 158.75 49.53 0)
+		(at 207.01 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2441,7 +2483,7 @@
 		)
 		(uuid "f37eec4f-cf0c-4006-b2ba-4bc3536f4edb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 163.0052 49.53 0)
+			(at 211.2652 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2451,9 +2493,163 @@
 			)
 		)
 	)
+	(global_label "A'"
+		(shape input)
+		(at 128.27 62.23 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7665500-b1e6-4173-b364-15d142261d7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.27 66.9086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03115ce1-7477-4bc1-b858-4fb8149bb438")
+		(property "Reference" "#PWR09"
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ad468f3-d654-430f-8069-c30fb44fd811")
+		)
+		(instances
+			(project "XORgate"
+				(path "/b2608f2f-b02a-40ab-b14f-7443dd95ceff"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "05b2bf37-eb28-4aab-9bda-112ecef1adbb")
+		(property "Reference" "#PWR08"
+			(at 125.73 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb96b12d-2251-422d-840d-73316e90d0be")
+		)
+		(instances
+			(project ""
+				(path "/b2608f2f-b02a-40ab-b14f-7443dd95ceff"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Transistor_FET:CD4007")
-		(at 106.68 34.29 90)
+		(at 154.94 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2462,7 +2658,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c2bb0de-08b7-41a1-949e-0392cf1cd2f8")
 		(property "Reference" "U1"
-			(at 119.38 33.0199 90)
+			(at 167.64 76.1999 90)
 			(show_name yes)
 			(effects
 				(font
@@ -2472,7 +2668,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 119.38 35.5599 90)
+			(at 167.64 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,7 +2677,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 96.52 34.798 0)
+			(at 144.78 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +2686,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4007ub.pdf?ts=1767048465060&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4007UB%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-ww_en_cons%2526utm_content%253DCD4007UB%2526ds_k%253DCD4007UB%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D14388345080%2526gbraid%253D0AAAAAC068F3Q3OqmVWhQail3HMIt-IDMx%2526gclid%253DCj0KCQiA6sjKBhCSARIsAJvYcpNocxaiWdA8hgg5xCEBwxo3lQewBTBPS7z7e3YhaL9WONj1dw2RJ5MaAkB-EALw_wcB"
-			(at 106.68 34.29 0)
+			(at 154.94 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2695,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 34.29 0)
+			(at 154.94 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2768,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 59.69 0)
+		(at 118.11 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2581,7 +2777,7 @@
 		(fields_autoplaced yes)
 		(uuid "331e471f-ad02-4131-9486-2e88fa3ed98a")
 		(property "Reference" "#PWR01"
-			(at 69.85 66.04 0)
+			(at 118.11 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2590,7 +2786,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 64.77 0)
+			(at 118.11 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2794,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 59.69 0)
+			(at 118.11 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2803,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 59.69 0)
+			(at 118.11 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2812,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 59.69 0)
+			(at 118.11 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,7 +2834,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:CD4007")
-		(at 142.24 30.48 90)
+		(at 190.5 73.66 90)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2647,7 +2843,7 @@
 		(fields_autoplaced yes)
 		(uuid "405df658-daf9-426a-a049-a3a3fc60a024")
 		(property "Reference" "U2"
-			(at 147.32 48.2599 90)
+			(at 195.58 91.4399 90)
 			(show_name yes)
 			(effects
 				(font
@@ -2657,7 +2853,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 147.32 50.7999 90)
+			(at 195.58 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2862,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 132.08 30.988 0)
+			(at 180.34 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2871,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4007ub.pdf?ts=1767048465060&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4007UB%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-ww_en_cons%2526utm_content%253DCD4007UB%2526ds_k%253DCD4007UB%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D14388345080%2526gbraid%253D0AAAAAC068F3Q3OqmVWhQail3HMIt-IDMx%2526gclid%253DCj0KCQiA6sjKBhCSARIsAJvYcpNocxaiWdA8hgg5xCEBwxo3lQewBTBPS7z7e3YhaL9WONj1dw2RJ5MaAkB-EALw_wcB"
-			(at 142.24 30.48 0)
+			(at 190.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2684,7 +2880,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 30.48 0)
+			(at 190.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,7 +2953,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:CD4007")
-		(at 138.43 66.04 90)
+		(at 186.69 109.22 90)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2766,7 +2962,7 @@
 		(fields_autoplaced yes)
 		(uuid "499eafa1-510b-4eea-9aa5-17d73be8ff7f")
 		(property "Reference" "U2"
-			(at 154.94 63.4999 90)
+			(at 203.2 106.6799 90)
 			(show_name yes)
 			(effects
 				(font
@@ -2776,7 +2972,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 154.94 66.0399 90)
+			(at 203.2 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,7 +2981,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 128.27 66.548 0)
+			(at 176.53 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2794,7 +2990,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4007ub.pdf?ts=1767048465060&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4007UB%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-ww_en_cons%2526utm_content%253DCD4007UB%2526ds_k%253DCD4007UB%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D14388345080%2526gbraid%253D0AAAAAC068F3Q3OqmVWhQail3HMIt-IDMx%2526gclid%253DCj0KCQiA6sjKBhCSARIsAJvYcpNocxaiWdA8hgg5xCEBwxo3lQewBTBPS7z7e3YhaL9WONj1dw2RJ5MaAkB-EALw_wcB"
-			(at 138.43 66.04 0)
+			(at 186.69 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2803,7 +2999,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 66.04 0)
+			(at 186.69 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2876,32 +3072,34 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 34.29 87.63 0)
+		(at 128.27 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5482cf2a-1ffd-43fa-ae98-d266c2a6d4db")
-		(property "Reference" "J2"
-			(at 34.925 82.55 0)
+		(uuid "4ef8ca2d-11d7-4a80-9336-30d7abf28dd6")
+		(property "Reference" "J5"
+			(at 129.54 47.6249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 34.925 85.09 0)
+			(at 129.54 50.1649 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
-			(at 34.29 87.63 0)
+			(at 128.27 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +3108,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 87.63 0)
+			(at 128.27 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,7 +3117,75 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 34.29 87.63 0)
+			(at 128.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca18cdbb-b338-4271-bd65-7fa873cea83f")
+		)
+		(pin "1"
+			(uuid "a6e8ed39-734a-45fd-91a4-27e8a85dc9fc")
+		)
+		(instances
+			(project "XORgate"
+				(path "/b2608f2f-b02a-40ab-b14f-7443dd95ceff"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 82.55 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5482cf2a-1ffd-43fa-ae98-d266c2a6d4db")
+		(property "Reference" "J2"
+			(at 83.185 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 83.185 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
+			(at 82.55 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 82.55 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2943,8 +3209,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 153.67 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bd1aca3-e7f0-4bf2-b890-9392f9ba21e9")
+		(property "Reference" "J6"
+			(at 155.0259 47.6249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 155.0259 50.1649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
+			(at 153.67 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 153.67 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8398b181-569a-45af-8328-48e48b138b64")
+		)
+		(pin "1"
+			(uuid "b959d636-5b75-4d2a-8114-4a6d67000a42")
+		)
+		(instances
+			(project "XORgate"
+				(path "/b2608f2f-b02a-40ab-b14f-7443dd95ceff"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:CD4007")
-		(at 53.34 40.64 0)
+		(at 101.6 83.82 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2953,7 +3289,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ede0069-2174-42c1-ba31-8269cd0e7cae")
 		(property "Reference" "U1"
-			(at 73.66 53.3399 0)
+			(at 121.92 96.5199 0)
 			(show_name yes)
 			(effects
 				(font
@@ -2963,7 +3299,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 73.66 55.8799 0)
+			(at 121.92 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2972,7 +3308,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 52.832 30.48 0)
+			(at 101.092 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2981,7 +3317,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4007ub.pdf?ts=1767048465060&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4007UB%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-ww_en_cons%2526utm_content%253DCD4007UB%2526ds_k%253DCD4007UB%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D14388345080%2526gbraid%253D0AAAAAC068F3Q3OqmVWhQail3HMIt-IDMx%2526gclid%253DCj0KCQiA6sjKBhCSARIsAJvYcpNocxaiWdA8hgg5xCEBwxo3lQewBTBPS7z7e3YhaL9WONj1dw2RJ5MaAkB-EALw_wcB"
-			(at 53.34 40.64 0)
+			(at 101.6 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,7 +3326,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 40.64 0)
+			(at 101.6 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3063,7 +3399,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 54.61 270)
+		(at 208.28 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3072,7 +3408,7 @@
 		(fields_autoplaced yes)
 		(uuid "63a55280-6ec8-4418-ae2d-0aea89d8f092")
 		(property "Reference" "#PWR03"
-			(at 153.67 54.61 0)
+			(at 201.93 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +3417,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 54.6099 90)
+			(at 204.47 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,7 +3426,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 54.61 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +3435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 54.61 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,7 +3444,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 54.61 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,7 +3466,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:CD4007")
-		(at 106.68 30.48 90)
+		(at 154.94 73.66 90)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3139,7 +3475,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a32459c-f7e3-49be-bccb-b812dd887881")
 		(property "Reference" "U1"
-			(at 111.76 48.2599 90)
+			(at 160.02 91.4399 90)
 			(show_name yes)
 			(effects
 				(font
@@ -3149,7 +3485,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 111.76 50.7999 90)
+			(at 160.02 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3494,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 96.52 30.988 0)
+			(at 144.78 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +3503,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4007ub.pdf?ts=1767048465060&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4007UB%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-ww_en_cons%2526utm_content%253DCD4007UB%2526ds_k%253DCD4007UB%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D14388345080%2526gbraid%253D0AAAAAC068F3Q3OqmVWhQail3HMIt-IDMx%2526gclid%253DCj0KCQiA6sjKBhCSARIsAJvYcpNocxaiWdA8hgg5xCEBwxo3lQewBTBPS7z7e3YhaL9WONj1dw2RJ5MaAkB-EALw_wcB"
-			(at 106.68 30.48 0)
+			(at 154.94 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3176,7 +3512,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 30.48 0)
+			(at 154.94 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3249,7 +3585,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:CD4007")
-		(at 76.2 76.2 270)
+		(at 124.46 119.38 270)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3258,7 +3594,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a6160d2-aaee-4e21-95ef-e2fddee04107")
 		(property "Reference" "U1"
-			(at 73.66 40.6399 90)
+			(at 121.92 83.8199 90)
 			(show_name yes)
 			(effects
 				(font
@@ -3268,7 +3604,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 73.66 43.1799 90)
+			(at 121.92 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,7 +3613,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 86.36 75.692 0)
+			(at 134.62 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,7 +3622,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4007ub.pdf?ts=1767048465060&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4007UB%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-ww_en_cons%2526utm_content%253DCD4007UB%2526ds_k%253DCD4007UB%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D14388345080%2526gbraid%253D0AAAAAC068F3Q3OqmVWhQail3HMIt-IDMx%2526gclid%253DCj0KCQiA6sjKBhCSARIsAJvYcpNocxaiWdA8hgg5xCEBwxo3lQewBTBPS7z7e3YhaL9WONj1dw2RJ5MaAkB-EALw_wcB"
-			(at 76.2 76.2 0)
+			(at 124.46 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3295,7 +3631,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 76.2 0)
+			(at 124.46 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3368,7 +3704,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:CD4007")
-		(at 102.87 66.04 90)
+		(at 151.13 109.22 90)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3377,7 +3713,7 @@
 		(fields_autoplaced yes)
 		(uuid "980ef24d-cf38-4fb3-97a4-9a91a13e8d8b")
 		(property "Reference" "U1"
-			(at 119.38 63.4999 90)
+			(at 167.64 106.6799 90)
 			(show_name yes)
 			(effects
 				(font
@@ -3387,7 +3723,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 119.38 66.0399 90)
+			(at 167.64 109.2199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,7 +3732,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 92.71 66.548 0)
+			(at 140.97 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3405,7 +3741,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4007ub.pdf?ts=1767048465060&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4007UB%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-ww_en_cons%2526utm_content%253DCD4007UB%2526ds_k%253DCD4007UB%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D14388345080%2526gbraid%253D0AAAAAC068F3Q3OqmVWhQail3HMIt-IDMx%2526gclid%253DCj0KCQiA6sjKBhCSARIsAJvYcpNocxaiWdA8hgg5xCEBwxo3lQewBTBPS7z7e3YhaL9WONj1dw2RJ5MaAkB-EALw_wcB"
-			(at 102.87 66.04 0)
+			(at 151.13 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3414,7 +3750,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 66.04 0)
+			(at 151.13 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,7 +3823,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 50.8 90)
+		(at 87.63 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3496,7 +3832,7 @@
 		(fields_autoplaced yes)
 		(uuid "a46da25a-1c26-4326-91c6-5f6962fcb2f4")
 		(property "Reference" "#PWR04"
-			(at 45.72 50.8 0)
+			(at 93.98 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3505,7 +3841,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 50.7999 90)
+			(at 91.44 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3514,7 +3850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 50.8 0)
+			(at 87.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3523,7 +3859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 50.8 0)
+			(at 87.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,7 +3868,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 50.8 0)
+			(at 87.63 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,7 +3890,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:CD4007")
-		(at 140.335 81.915 90)
+		(at 188.595 125.095 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3563,7 +3899,7 @@
 		(fields_autoplaced yes)
 		(uuid "a65b9b02-b3d2-4975-8ec0-f4f7b96ce3be")
 		(property "Reference" "U1"
-			(at 154.94 80.0099 90)
+			(at 203.2 123.1899 90)
 			(show_name yes)
 			(effects
 				(font
@@ -3573,7 +3909,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 154.94 82.5499 90)
+			(at 203.2 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,7 +3918,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 130.175 82.423 0)
+			(at 178.435 125.603 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3591,7 +3927,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4007ub.pdf?ts=1767048465060&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4007UB%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-ww_en_cons%2526utm_content%253DCD4007UB%2526ds_k%253DCD4007UB%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D14388345080%2526gbraid%253D0AAAAAC068F3Q3OqmVWhQail3HMIt-IDMx%2526gclid%253DCj0KCQiA6sjKBhCSARIsAJvYcpNocxaiWdA8hgg5xCEBwxo3lQewBTBPS7z7e3YhaL9WONj1dw2RJ5MaAkB-EALw_wcB"
-			(at 140.335 81.915 0)
+			(at 188.595 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,7 +3936,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.335 81.915 0)
+			(at 188.595 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3673,7 +4009,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 91.44 0)
+		(at 181.61 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3682,7 +4018,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab5c0947-fadd-4237-9140-3ee7820d4d72")
 		(property "Reference" "#PWR07"
-			(at 133.35 97.79 0)
+			(at 181.61 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3691,7 +4027,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 96.52 0)
+			(at 181.61 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3699,7 +4035,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 91.44 0)
+			(at 181.61 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,7 +4044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 91.44 0)
+			(at 181.61 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,7 +4053,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 91.44 0)
+			(at 181.61 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +4075,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 24.13 90)
+		(at 87.63 67.31 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3748,7 +4084,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6faafaf-7f8d-4697-af25-e5d75584f2b4")
 		(property "Reference" "#PWR06"
-			(at 45.72 24.13 0)
+			(at 93.98 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3757,7 +4093,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 24.1299 90)
+			(at 91.44 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +4102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 24.13 0)
+			(at 87.63 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +4111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 24.13 0)
+			(at 87.63 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +4120,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 24.13 0)
+			(at 87.63 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3806,7 +4142,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 90.17 90)
+		(at 87.63 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3815,7 +4151,7 @@
 		(fields_autoplaced yes)
 		(uuid "c25a535e-a0b7-4363-969a-9de39e722213")
 		(property "Reference" "#PWR05"
-			(at 45.72 90.17 0)
+			(at 93.98 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3824,7 +4160,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 90.1699 90)
+			(at 91.44 133.3499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3833,7 +4169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 90.17 0)
+			(at 87.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3842,7 +4178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 90.17 0)
+			(at 87.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +4187,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 90.17 0)
+			(at 87.63 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +4209,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:CD4007")
-		(at 142.24 34.29 90)
+		(at 190.5 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3882,7 +4218,7 @@
 		(fields_autoplaced yes)
 		(uuid "c79fd536-cc10-4ca9-8919-56fa5e44a84e")
 		(property "Reference" "U2"
-			(at 154.94 33.0199 90)
+			(at 203.2 76.1999 90)
 			(show_name yes)
 			(effects
 				(font
@@ -3892,7 +4228,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 154.94 35.5599 90)
+			(at 203.2 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +4237,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 132.08 34.798 0)
+			(at 180.34 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,7 +4246,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4007ub.pdf?ts=1767048465060&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4007UB%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-ww_en_cons%2526utm_content%253DCD4007UB%2526ds_k%253DCD4007UB%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D14388345080%2526gbraid%253D0AAAAAC068F3Q3OqmVWhQail3HMIt-IDMx%2526gclid%253DCj0KCQiA6sjKBhCSARIsAJvYcpNocxaiWdA8hgg5xCEBwxo3lQewBTBPS7z7e3YhaL9WONj1dw2RJ5MaAkB-EALw_wcB"
-			(at 142.24 34.29 0)
+			(at 190.5 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,7 +4255,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 34.29 0)
+			(at 190.5 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3992,7 +4328,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 34.29 48.26 0)
+		(at 82.55 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4001,7 +4337,7 @@
 		(fields_autoplaced yes)
 		(uuid "d12587de-86f0-42f4-92c4-35600cdba662")
 		(property "Reference" "J1"
-			(at 34.925 43.18 0)
+			(at 83.185 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,7 +4345,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 34.925 45.72 0)
+			(at 83.185 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4017,7 +4353,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
-			(at 34.29 48.26 0)
+			(at 82.55 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4026,7 +4362,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 48.26 0)
+			(at 82.55 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,7 +4371,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 34.29 48.26 0)
+			(at 82.55 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4060,7 +4396,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:CD4007")
-		(at 76.2 115.57 270)
+		(at 124.46 158.75 270)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4069,7 +4405,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc305f6a-b46f-4487-8026-15c581602d8d")
 		(property "Reference" "U2"
-			(at 73.66 80.0099 90)
+			(at 121.92 123.1899 90)
 			(show_name yes)
 			(effects
 				(font
@@ -4079,7 +4415,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 73.66 82.5499 90)
+			(at 121.92 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,7 +4424,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 86.36 115.062 0)
+			(at 134.62 158.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4097,7 +4433,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4007ub.pdf?ts=1767048465060&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4007UB%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-ww_en_cons%2526utm_content%253DCD4007UB%2526ds_k%253DCD4007UB%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D14388345080%2526gbraid%253D0AAAAAC068F3Q3OqmVWhQail3HMIt-IDMx%2526gclid%253DCj0KCQiA6sjKBhCSARIsAJvYcpNocxaiWdA8hgg5xCEBwxo3lQewBTBPS7z7e3YhaL9WONj1dw2RJ5MaAkB-EALw_wcB"
-			(at 76.2 115.57 0)
+			(at 124.46 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4106,7 +4442,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 115.57 0)
+			(at 124.46 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4179,7 +4515,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 171.45 57.15 180)
+		(at 219.71 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4188,7 +4524,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd3f289a-1eff-4805-a4f0-c7944be6a675")
 		(property "Reference" "J3"
-			(at 172.72 54.6099 0)
+			(at 220.98 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,7 +4533,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 172.72 57.1499 0)
+			(at 220.98 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,7 +4542,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
-			(at 171.45 57.15 0)
+			(at 219.71 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4215,7 +4551,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 57.15 0)
+			(at 219.71 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4224,7 +4560,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 171.45 57.15 0)
+			(at 219.71 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4249,7 +4585,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:CD4007")
-		(at 53.34 80.01 0)
+		(at 101.6 123.19 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4258,7 +4594,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2c8f5ec-0cdb-48c1-a56c-81918587ebb0")
 		(property "Reference" "U2"
-			(at 73.66 92.7099 0)
+			(at 121.92 135.8899 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4268,7 +4604,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 73.66 95.2499 0)
+			(at 121.92 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4277,7 +4613,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 52.832 69.85 0)
+			(at 101.092 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4286,7 +4622,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4007ub.pdf?ts=1767048465060&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4007UB%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-ww_en_cons%2526utm_content%253DCD4007UB%2526ds_k%253DCD4007UB%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D14388345080%2526gbraid%253D0AAAAAC068F3Q3OqmVWhQail3HMIt-IDMx%2526gclid%253DCj0KCQiA6sjKBhCSARIsAJvYcpNocxaiWdA8hgg5xCEBwxo3lQewBTBPS7z7e3YhaL9WONj1dw2RJ5MaAkB-EALw_wcB"
-			(at 53.34 80.01 0)
+			(at 101.6 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4295,7 +4631,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 80.01 0)
+			(at 101.6 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4368,7 +4704,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 34.29 21.59 0)
+		(at 82.55 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4377,7 +4713,7 @@
 		(fields_autoplaced yes)
 		(uuid "e367e03c-ed50-494b-b2c3-a83f2512007b")
 		(property "Reference" "J4"
-			(at 34.925 16.51 0)
+			(at 83.185 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,7 +4721,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 34.925 19.05 0)
+			(at 83.185 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4393,7 +4729,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
-			(at 34.29 21.59 0)
+			(at 82.55 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4402,7 +4738,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 21.59 0)
+			(at 82.55 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4411,7 +4747,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 34.29 21.59 0)
+			(at 82.55 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4436,7 +4772,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 99.06 0)
+		(at 118.11 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4445,7 +4781,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3b5f5d3-fa92-45fc-8b18-300d344032dd")
 		(property "Reference" "#PWR02"
-			(at 69.85 105.41 0)
+			(at 118.11 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +4790,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 104.14 0)
+			(at 118.11 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +4798,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 99.06 0)
+			(at 118.11 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,7 +4807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 99.06 0)
+			(at 118.11 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4480,7 +4816,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 99.06 0)
+			(at 118.11 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,7 +4838,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:CD4007")
-		(at 104.775 81.915 90)
+		(at 153.035 125.095 90)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4511,7 +4847,7 @@
 		(fields_autoplaced yes)
 		(uuid "eff6c387-148f-4a5f-a548-7f4ddd55dfc4")
 		(property "Reference" "U2"
-			(at 119.38 80.0099 90)
+			(at 167.64 123.1899 90)
 			(show_name yes)
 			(effects
 				(font
@@ -4521,7 +4857,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 119.38 82.5499 90)
+			(at 167.64 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4866,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 94.615 82.423 0)
+			(at 142.875 125.603 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4539,7 +4875,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4007ub.pdf?ts=1767048465060&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FCD4007UB%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-GPN_EN-cpc-pf-google-ww_en_cons%2526utm_content%253DCD4007UB%2526ds_k%253DCD4007UB%2526DCM%253Dyes%2526gclsrc%253Daw.ds%2526gad_source%253D1%2526gad_campaignid%253D14388345080%2526gbraid%253D0AAAAAC068F3Q3OqmVWhQail3HMIt-IDMx%2526gclid%253DCj0KCQiA6sjKBhCSARIsAJvYcpNocxaiWdA8hgg5xCEBwxo3lQewBTBPS7z7e3YhaL9WONj1dw2RJ5MaAkB-EALw_wcB"
-			(at 104.775 81.915 0)
+			(at 153.035 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,7 +4884,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.775 81.915 0)
+			(at 153.035 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
